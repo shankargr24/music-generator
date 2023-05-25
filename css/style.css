@@ -1,0 +1,442 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('https://fonts.cdnfonts.com/css/roobert');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+}               
+.bg{
+    background-size: cover;
+    background: url('images/bg-img.png')no-repeat;
+    
+}
+.header-menu{
+    max-height: 127px;
+}
+.headertext{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-family: 'Roobert-Regular';
+    font-weight: 400;
+}
+.firstcontainer{
+    margin-top: 130px;
+}
+label i {
+    color: rgba(255, 255, 255, 0.6);;
+}
+.gap{
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+}
+.space{
+    gap: 50px;
+}
+.btn-p{    
+    background: linear-gradient(to top, #F7BB2E 0% ,#F44525 100%);     
+    border-radius: 100px;
+}
+.between{
+    gap: 30px;
+}
+.text{
+    padding-top: 7px;
+    font-weight: 800;
+    font-family: 'Montserrat';
+    font-size: 23px;
+    color: #F89644;
+}
+.btn-text{
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.futuretxt{
+    color: #fff;
+    font-family: 'Helvetica Neue',sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.aimusic{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 150px;
+    font-family: 'Helvetica Neue',sans-serif;
+    color: #FF0078;
+    line-height: 178px;
+}
+.generator{
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue',sans-serif;
+    font-size: 130px;
+    line-height: 157px;
+    font-weight: 300;
+    color: #fff;
+}
+.normaltxt{
+    font-family: 'Roobert-Regular';   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;    
+}
+.top{
+    margin-top: 45px;
+    margin-bottom: 90px;
+}
+.lisence{
+    margin-top: 40px;
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;    
+    text-transform: uppercase;
+    color: #fff; 
+}
+.lorem{
+    font-family: 'Roobert-Regular';
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    
+}
+.bg-blac{
+    background: rgb(10,0,6);
+}
+.redbox{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    background: #FF191A;
+}
+.mdi_book{
+    top: 20px;   
+    right: 20px;
+       
+}
+.youtube{
+    top: 150px;
+    left: 20px;    
+}
+.bluebox{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    background: #346FEC;
+}
+.gradienbox{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    background: linear-gradient(to right top, #AC20BC 0% ,  #FFBF5F 100%);
+}
+.skybluebox{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    background: #2D9CED;
+}
+.above{
+    padding-top: 60px;
+}
+.how{
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 130px;
+    text-transform: uppercase;
+    color: #fff; 
+}
+.orange{
+    border-radius: 50%;
+    background: linear-gradient(to top, #F7BB2E 0% ,#F44525 100%);
+    width: 60px;
+    height: 50px;
+}
+.heading{
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 48px;
+    padding-left: 10px;
+    width:100% ;
+}
+.content{
+    padding-top: 1.5rem;
+    line-height: 24px;
+    font-family: 'Roobert-Regular';
+    font-weight: 400;
+    font-size: 16px;
+}
+.layer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10%;    
+}
+.music{
+    margin-top: 6rem;
+}
+
+.Testimonials{
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 48px;   
+    padding-top: 100px; 
+}
+#size img{
+    margin-top: 88px;
+}
+.Quisque{
+    margin-top: 40px;
+    line-height: 100%;
+    font-family: 'Roobert-Regular';
+    font-weight: 400;
+    font-size: 30px;
+    width: 62%;
+}
+#size{
+    background: url('images/rotate.png')no-repeat;       
+    background-size: cover;
+    width: 100%;
+}
+.comma{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+    color: #FC1B7C;
+}
+.Louisa{
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;    
+}
+.ceo{
+    font-family: 'Roobert-Regular';
+    font-weight: 400;
+    font-size: 20px;    
+}
+.square:first-child{   
+    width: 16px;
+    height: 16px;
+    background: #FC1B7C;
+    
+}
+.square{   
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    
+}
+.topspace{
+    margin-top: 65px;
+    margin-bottom: 100px;
+    gap: 20px;
+}
+.blogtop{
+    margin-top: 100px;
+}
+.blog{
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.bloglorem{
+    font-family: 'Roobert-Regular';
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 30px;
+}
+.soundrecord{
+    background: url('images/Rectangle\ 7.png')no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;   
+    margin-top: 75px;
+}
+.soundimg{
+    background: black;
+    opacity: 90%;
+    background-size: cover;
+    height: 100vh;
+}
+.soundtext{
+    height: 100vh;
+    vertical-align: middle;
+}
+.sound{
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+.what{
+    font-family: 'Roobert-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.fm{
+    margin-top: 75px;
+}
+.cover{
+    object-fit: cover;
+    height: 50vh;
+}
+.record{
+    object-fit: cover;
+    height: 100vh;
+}
+.totop{
+    margin-top: 130px;
+}
+.line{
+    margin-top: 88px;
+    width: 100%;
+    border: 1px solid #242424 !important;    
+}
+hr{
+    border: 1px solid #242424 !important;    
+    color: #242424 !important;
+}
+.toggle{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.accordion-wrapper 
+{
+  position: relative;
+  margin-bottom: .5rem;
+  
+}
+.acc-head
+{
+  position: relative;
+}
+.acc-head::after
+{
+  content: '\276F';
+  position: absolute;
+  right: 16px;
+  color: white;
+  transform: rotate(0deg);
+  transition: .4s;
+}
+.acc-head.active::after
+{
+  content: '\276F';
+  position: absolute;
+  right: 16px;
+  color: white;
+  transform: rotate(90deg);
+  transition: .4s;
+}
+.acc-body
+{
+  padding-top: 20px;
+  display: none;  
+}
+.acctext{
+    font-family: 'Roobert-Regular';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+.acccontent{
+    font-family: 'Roobert-Regular';    
+    font-size: 16px;
+    line-height: 24px;
+}
+.secondline{
+    margin-top: 40px;
+}
+.circule{
+    width: 260px;
+    height: 260px;
+    background: #FC1B7C;
+    border-radius: 50%;
+    filter: blur(140px);
+}
+.circuletwo{
+    width: 260px;
+    height: 260px;
+    background: #FB9B73;
+    border-radius: 50%;
+    filter: blur(140px);
+    right: 0px;
+}
+.rightside{
+    right: 150px;    
+}
+.footericon{
+    gap: 24px;
+}
+.list-group{
+    list-style: none;
+    gap: 31px;
+    color: #949494;
+    
+}
+.big{
+    grid-template-columns: 467px;
+}
+.last{
+    margin-bottom: 130px;
+}
+
+@media (min-width:320px) and (max-width:765px){
+    .aimusic{
+        font-size:60px;
+        line-height: 125px;
+    }
+    .generator{
+        font-size: 40px;
+        line-height: 90px;
+    }
+    .view{
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+@media (min-width:766px) and (max-width:990px){
+    .aimusic{
+        font-size:90px;
+        line-height: 125px;
+    }
+    .generator{
+        font-size: 70px;
+        line-height: 90px;
+    }
+    .view{
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+@media (min-width:320px) and (max-width:575px){
+    .bg{
+        background-size: cover;
+    }
+   
+    .fm{
+        margin-top: 0px;
+    }
+    .last{
+        margin-bottom: 20px;
+    }
+   .mob{
+    display: none;
+   }
+  
+   
+}
